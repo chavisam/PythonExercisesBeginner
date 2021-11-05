@@ -2,5 +2,8 @@ def is_odd(my_number):
   	return (my_number % 2 != 0)
 
 
-def my_main_code():
-    # your code here
+def my_main_code(number):
+    result =is_odd(number)
+    return result
+
+print(my_main_code(45345))
